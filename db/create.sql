@@ -7,12 +7,15 @@ CREATE TABLE products (
   code VARCHAR(15),
   name VARCHAR(255),
   description TEXT,
-  price NUMERIC(10, 2)
+  price NUMERIC(10, 2),
   stock_id INTEGER,
   interest_id INTEGER,
   time_id INTEGER,
   category VARCHAR (250)
+  doors INTEGER, 
 );
+
+
 
 --stock 1:n relatie
 CREATE table stocks (
@@ -38,6 +41,7 @@ CREATE table category (
 
 
 
+
 --
 -- populate with data
 --
@@ -54,3 +58,7 @@ insert into products (name, description, code, price, stock_id, interest_id, tim
 insert into products (name, description, code, price, stock_id, interest_id, time_id, category) values ('Ferrari', A (Almost a Bride)', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14);
 insert into products (name, description, code, price) values ('Velvet Goldmine', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7', 14);
 
+--stocks
+  insert into stocks (instock) values ('In Stock');
+   insert into stocks (instock) values ('Out of stock');
+  
