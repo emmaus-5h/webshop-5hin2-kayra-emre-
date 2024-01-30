@@ -60,5 +60,8 @@ insert into products (name, description, code, price) values ('Velvet Goldmine',
 
 --stocks
   insert into stocks (instock) values ('In Stock');
-   insert into stocks (instock) values ('Out of stock');
+  insert into stocks (instock) values ('Out of stock');
   
+--interest 
+  insert into interest (name) values ('Best seller');
+  insert into interest (name) values ('');
