@@ -64,4 +64,9 @@ insert into products (name, description, code, price) values ('Velvet Goldmine',
   
 --interest 
   insert into interest (name) values ('Best seller');
-  insert into interest (name) values ('');
+  insert into interest (name) values ('New');
+  insert into interest (name) values ('DISCOUNT');
+
+--time
+  insert into time (name) values ('Regular, 3 months');
+  insert into time (name) values ('Fast Service, 6 weeks');
