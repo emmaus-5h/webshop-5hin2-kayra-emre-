@@ -70,3 +70,13 @@ insert into products (name, description, code, price) values ('Velvet Goldmine',
 --time
   insert into time (name) values ('Regular, 3 months');
   insert into time (name) values ('Fast Service, 6 weeks');
+
+-- category
+  insert into category (name) values ('SUV');
+  insert into category (name) values ('Sedan');
+  insert into category (name) values ('Coupé');
+  insert into category (name) values ('Station Wagon');
+  insert into category (name) values ('Supercar');
+  insert into category (name) values ('Sport');
+
+
