@@ -2,6 +2,13 @@
 -- create tables
 --
 
+-- feebdack GEE 2 feb 2024
+-- je hebt 5 tabellen
+-- je hebt 1:n relaties
+-- je mist nog een n:m relatie (je moet er daar minimaal 1 van hebben)
+-- kijk in de sheets of de video (beide bij T5. Databases) wat n:m is
+-- een voorbeeld van n:m is auto (in je tabel products) en accessoires (een tabel accessoires, met iserts voor airco, navigatie ). Je hebt dan een extra tabel nodig om products eb accessoires.
+
 CREATE TABLE products (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   code VARCHAR(15),
