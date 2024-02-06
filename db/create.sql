@@ -75,9 +75,9 @@ insert into products (name, description, code, price, stock_id, interest_id, tim
 
 
 --BMW
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('BMW', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 'appp', 'appp','appp', 'appp', 'appp',  37000);
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('BMW X6', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', 'appp', 'appp', 'appp', 'appp', '077030122-3', 'appp', 45000);
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('BMW', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', 'appp', 'appp', 'appp',  'appp', 'appp', 33000);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('BMW M5 Competition', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', '$180.000', 'Out of stock','New', 'Regular, 3 months', 'Sedan',  37000);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('BMW X6', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', '$120.000', 'In Stock', 'Best seller', 'Fast Service, 6 weeks', 'SUV', 45000);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('BMW M3 Touring', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', '$170.000', 'In Stock', 'Regular',  'Fast Service, 6 weeks', 'Station Wagon', 33000);
 
 --Audi
 insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Audi', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 'appp', 'appp','appp', 'appp', 'appp',  37000);
@@ -98,7 +98,7 @@ insert into products (name, description, code, price, stock_id, interest_id, tim
 --interest 
   insert into interest (interest) values ('Best seller');
   insert into interest (interest) values ('New');
-  insert into interest (interest) values ('DISCOUNT');
+  insert into interest (interest) values ('Regular');
 
 --time
   insert into time (time) values ('Regular, 3 months');
