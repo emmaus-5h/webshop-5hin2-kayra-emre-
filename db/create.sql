@@ -75,20 +75,20 @@ insert into products (name, description, code, price, stock_id, interest_id, tim
 
 
 --BMW
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('BMW M5 Competition', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', '$180.000', 'Out of stock','New', 'Regular, 3 months', 'Sedan',  37000);
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('BMW X6', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', '$120.000', 'In Stock', 'Best seller', 'Fast Service, 6 weeks', 'SUV', 45000);
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('BMW M3 Touring', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', '$170.000', 'In Stock', 'Regular',  'Fast Service, 6 weeks', 'Station Wagon', 33000);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('BMW M5 Competition', 'Dit is de nieuwste BMW.', '816905633-0', '$180.000', 1, 2, 1, 1, 2);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('BMW X6', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 120.000 ,1, 3, 1, 5 , 3);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('BMW M3 Touring', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', 110000  2, 1, 2, 3, 1);
 
 --Audi
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Audi', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 'appp', 'appp','appp', 'appp', 'appp',  37000);
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Audi', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', 'appp', 'appp', 'appp', 'appp', '077030122-3', 'appp', 45000);
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Audi', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', 'appp', 'appp', 'appp',  'appp', 'appp', 33000);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Audi', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 120.000 ,1, 3, 1, 5 , 3);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Audi', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '816905633-0', 89000, 2, 1, 2, 3, 1);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Audi', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', 96000, 1, 2, 1, 1, 2);
 
 
 --Ferrari
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Ferrari', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 'appp', 'appp','appp', 'appp', 'appp',  37000);
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Ferrari', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', 'appp', 'appp', 'appp', 'appp', '077030122-3', 'appp', 45000);
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Ferrari', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', 'appp', 'appp', 'appp',  'appp', 'appp', 33000);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Ferrari', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 120.000 ,1, 3, 1, 5 , 3);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Ferrari', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 89000, 2, 1, 2, 3, 1);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Ferrari', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', 96000, 1, 2, 1, 1, 2);
 
 
 --stocks

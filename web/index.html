@@ -43,32 +43,17 @@
 
   <!-- lijst met producten, wordt gevuld door javascript -->
 	<main id="index">
-		<div class="container">
+  </main>
+  <center>
+   <img class="auto" src="images/1.jpg">
+    
+
+		<div class="center">
 			<h5>Home</h5>
  			<p>Op deze site kun je met de juiste informatie de beste auto voor jezelf kiezen!.</p>
-			<p>klik op een artikel voor meer informatie<p>
-					<p>klik op de "winkelwagentje" om het artikel in je winkelwagen te stoppen</p>
-		</div>	
+			
     <!-- template for product info-->
-  	<template id="productcard">
-		<div class="col-sm">
-			<div class="card" onclick="openArticlePage(this)">
-				<h5 class="card-header product_title"></h5>
-				<img width="200" class="product_image card-img-top">
-				<div class="card-body">
-					<p class="product_description card-text"></p>
-					<ul class="product-properties">
-						<li><span class="propert-name">Prijs:</span><span class="product_price"></span></li>
-						<li><span class="propert-name">Code:</span><span class="product_code"></span></li>
-					</ul>
-					<input class="product_amount" type="number" value="1" min="1">
-					<input class="product_id" type="hidden" name="id" data-json="">
-					<button class="btn btn-outline-dark shop-button" onclick="event.stopPropagation();addAmountClosestToBasket(this);$('.toast').toast('show')">🛒</button>
-				</div>
-			</div>
-		</div>
-	  </template>
-	</main>
+
 
   <!-- voettekst -->
 	<footer>
