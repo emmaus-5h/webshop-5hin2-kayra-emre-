@@ -67,9 +67,13 @@ id INTEGER PRIMARY KEY AUTOINCREMENT,
 --
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
+
+
 --Mercedez Benz
-insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Mercedez Benz', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 30000, 1, 2, 1, 1, 2);
+insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Mercedez Benz', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 30000, 1, 2, 1, 'Sedan' , 'Airbag');
+
 insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Mercedes AMG GT', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 240000, 1, 3, 1, 5, 3);
+
 insert into products (name, description, code, price, stock_id, interest_id, time_id, category, accessoires) values ('Mercedes CLA 250 4Matic', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-6', 77000, 2, 1, 2, 3, 1 );
 
 
