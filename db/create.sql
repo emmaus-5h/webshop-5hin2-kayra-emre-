@@ -116,5 +116,3 @@ insert into products (name, description, code, price, stock_id, interest_id, tim
   insert into accessoires (accessoires) values ('Air conditioning');
   insert into accessoires (accessoires) values ('Navigation');
   insert into accessoires (accessoires) values ('Airbag');
-
--- feijf

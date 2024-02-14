@@ -28,7 +28,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<a class="navbar-brand" href="index.html">Home</a>
       <a class="navbar-brand" href="auto's.html">Auto's </a>
-      <a class="navbar-brand" href="contact.html">contact</a>
+      <a class="navbar-brand" href="contact.html">Contact</a>
             
       
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,53 +40,32 @@
 				href="basket.html"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Winkelwagen <span class="num_products"></span></button></a>
 		</div>
 	</nav>
-
+  
   <!-- lijst met producten, wordt gevuld door javascript -->
 	<main id="index">
   </main>
+
+  <p>
+    U kunt contact opnemen met ons via de volgende contactgegevens:
+    <p>
+      Zakelijke nummer: +31 6 3169 6931
+      <p>
+        Hotmail: EtanolSnoPlanesGeographiaOfIndiaDessertEtcetera@Hotmail.com
+        <p>
+          Gmail: P1Z1_EAST@Gmail.com
+          <p>
+            Instagram: P1z1.The.Car.Dealer
+            <p>
+              Snapchat: @P1z1_East
+          
+  </p>
 
 
   <center>
 <div class="container">   
   </center>
 		
-		
-    <!-- template for product info-->
-  	<template id="productcard">
-		<div class="col-sm">
-			<div class="card" onclick="openArticlePage(this)">
-      <p> <span class="propert-name">
-      </span> <span class="product_interest">
-      </span></p>
-				<h5 class="card-header product_title"></h5>
-        <p><span class="propert-name">
-        </span><span class="product_stock"></span> </p>
-        
-				<img class="product_image card-img-top" 
-          src="/images/2.jpg">
-				<div class="card-body">
-					<p class="product_description card-text"></p>
-					<ul class="product-properties">
-						<li><span class="propert-name">Prijs:</span><span class="product_price"></span></li>
-						<li><span class="propert-name">Code:</span><span class="product_code"></span></li>
-                 	<li><span class="propert-name"></span><span class="product_stock"></span></li>
-
-            
-            	<li><span class="propert-name">Interest:</span><span class="product_interest"></span></li>
-            	<li><span class="propert-name">Time:</span><span class="product_time"></span></li>
-            <li><span class="propert-name">Category:</span><span class="product_category"></span></li>
-            <li><span class="propert-name">Accesoires:</span><span class="product_accesoires"></span></li>
-					</ul>
-          
-					<input class="product_amount" type="number" value="1" min="1">
-					<input class="product_id" type="hidden" name="id" data-json="">
-					<button class="btn btn-outline-dark shop-button" onclick="event.stopPropagation();addAmountClosestToBasket(this);$('.toast').toast('show')">🛒</button>
-				</div>
-			</div>
-		</div>
-	  </template>
-	</main>
-
+	
   <!-- voettekst -->
 
 	<script src="/js/basket.js"></script> <!-- functies voor de winkelwagen -->
