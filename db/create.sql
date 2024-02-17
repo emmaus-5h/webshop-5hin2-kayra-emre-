@@ -33,23 +33,23 @@ CREATE table stocks (
 --interest 1:n relatie
 CREATE table interest (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  interest VARCHAR(150)
+  name VARCHAR(150)
 );
 --deliverytime 1:n relatie
 CREATE table deliverytime (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  deliverytime VARCHAR(150)
+  timedelivery VARCHAR(150)
 );
 --category 1:n relatie
 CREATE table category (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  category VARCHAR(150)
+  type VARCHAR(150)
 );
 
 --accessoires n:m relatie 
 CREATE table accessoires (
 id INTEGER PRIMARY KEY AUTOINCREMENT,
-  accessoires VARCHAR(150)
+  additional VARCHAR(150)
 );
   
 
@@ -96,32 +96,32 @@ insert into products (name, description, code, price, stock_id, interest_id, del
   insert into stocks (instock) values ('Out of stock');
   
 --interest 
-  insert into interest (interest) values ('Best seller');
-  insert into interest (interest) values ('New');
-  insert into interest (interest) values ('Regular');
+  insert into interest (name) values ('Best seller');
+  insert into interest (name) values ('New');
+  insert into interest (name) values ('Regular');
 
 -- R. --> Regular
 -- F.S. --> Fast Service
 
 --time
-  insert into deliverytime (deliverytime) values ('R., 3 months');
-  insert into deliverytime (deliverytime) values ('F.S., 6 weeks');
+  insert into deliverytime (timedelivery) values ('R., 3 months');
+  insert into deliverytime (timedelivery) values ('F.S., 6 weeks');
 
 -- category
-  insert into category (category) values ('SUV');
-  insert into category (category) values ('Sedan');
-  insert into category (category) values ('Coupé');
-  insert into category (category) values ('Station Wagon');
-  insert into category (category) values ('Supercar');
-  insert into category (category) values ('Sport');
+  insert into category (type) values ('SUV');
+  insert into category (type) values ('Sedan');
+  insert into category (type) values ('Coupé');
+  insert into category (type) values ('Station Wagon');
+  insert into category (type) values ('Supercar');
+  insert into category (type) values ('Sport');
 
 -- A.C. --> Air conditioning
 -- Nav. --> Navigation
 -- A.B. --> Airbag
 
 -- accesoires
-  insert into accessoires (accessoires) values ('A.C.');
-  insert into accessoires (accessoires) values ('Nav.');
-  insert into accessoires (accessoires) values ('A.B.');
+  insert into accessoires (additional) values ('A.C.');
+  insert into accessoires (additional) values ('Nav.');
+  insert into accessoires (additional) values ('A.B.');
 
 
